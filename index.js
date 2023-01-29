@@ -40,3 +40,8 @@ const addUser = () => {
     },
   };
 };
+
+// 1. state
+// 2. dispatch action
+// 3. reducer 
+// 4. store

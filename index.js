@@ -11,10 +11,15 @@ const initialUserState = {
 };
 
 // Action   - Object -type,payload
+const incrementCounter = () => {
+     return {
+       type: "INCREMENT",
+     };
+   };
+   
 
 // Increment Counter
-{
-  type: "INCREMENT";
-}
+
+
 
 // Decrement Counter

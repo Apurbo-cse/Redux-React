@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Apurbo-cse/Redux-React/issues"
   },
-  "homepage": "https://github.com/Apurbo-cse/Redux-React#readme"
+  "homepage": "https://github.com/Apurbo-cse/Redux-React#readme",
+  "dependencies": {
+    "redux": "^4.2.1"
+  }
 }

@@ -15,14 +15,17 @@ const initialUserState = {
 };
 
 // Action   - Object -type,payload
+
+// Increment Counter
 const incrementCounter = () => {
   return {
     type: INCREMENT,
   };
 };
 
-
-
-// Increment Counter
-
 // Decrement Counter
+const decrementCounter = () => {
+  return {
+    type: DECREMENT,
+  };
+};

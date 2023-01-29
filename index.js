@@ -1,6 +1,7 @@
 // Defining constant
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";
+const ADD_USER = "ADD_USER";
 
 // State
 const initialCounterState = {
@@ -27,5 +28,15 @@ const incrementCounter = () => {
 const decrementCounter = () => {
   return {
     type: DECREMENT,
+  };
+};
+
+// payload
+const addUser = () => {
+  return {
+    type: ADD_USER,
+    payload: {
+      name: "apu",
+    },
   };
 };
